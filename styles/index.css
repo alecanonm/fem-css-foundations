@@ -1,1 +1,23 @@
 @import "./base.css";
+
+main {
+  font-size: 120px;
+  padding: 150px;
+}
+
+.main__sub__heading {
+  font-size: 40px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.button:not(button:last-of-type) {
+  margin-inline-end: 20px;
+}
+
+.button--primary img {
+  vertical-align: middle;
+}
